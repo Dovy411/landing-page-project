@@ -141,3 +141,48 @@ header > ul > li > a {
 .quote-page > .quote-by {
     text-align: right;
 }
+
+/* cta page */
+
+.cta-page-wrapper {
+
+    height: 300px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.cta-page {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.cta-text {
+    padding: 3em 6em;
+}
+
+.cta-page > button {
+    margin-right: 6em;
+    color: white;
+    border: solid 3px white;
+    background-color: #3882f6;
+    padding: .4em 2em;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* footer section */
+
+footer {
+    height: 80px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
