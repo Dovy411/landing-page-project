@@ -17,6 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 7em;
 }
 
 .logo {
@@ -35,4 +36,47 @@ header > ul > li > a {
     text-decoration: none;
     color: white;
     font-size: 18px;
+}
+
+
+
+.hero-content {
+    display: flex;
+    /*align-items: flex-start;*/
+    gap: 10%;
+}
+
+/* Left column hero section */
+
+.left-column, .right-column {
+    width: 50%;
+}
+
+.left-column {
+    margin-top: 1em;
+}
+
+.left-column > .hero-text {
+    font-size: 48px;
+    font-weight: bold;
+    max-width: 300px;
+}
+
+.left-column > .subtext {
+    font-size: 18px;
+}
+
+.left-column > button {
+    color: white;
+    background-color: #3882f6;
+    border: none;
+    padding: .6em 2em;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: .7em;
+}
+
+.right-column > img {
+    width: 100%;
+    height: 300px;
 }
